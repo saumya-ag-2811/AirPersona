@@ -62,7 +62,7 @@ export function AskAirPersona() {
   }
 
   return (
-    <div className="mt-10 rounded-3xl border border-border bg-surface/20 backdrop-blur-sm">
+    <div className="mt-10 rounded-3xl border border-accent/40 bg-surface/30 backdrop-blur-md shadow-[0_0_20px_-5px_hsl(var(--accent)/0.2)] transition-all duration-300 hover:shadow-[0_0_25px_-5px_hsl(var(--accent)/0.3)]">
       {/* Header */}
       <div className="flex items-center gap-3 border-b border-hairline px-6 py-4">
         <div className="flex h-8 w-8 items-center justify-center rounded-full bg-accent/20">
